@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let zipCodeDelegate = ZipCodeDelegate()
+    
+    @IBOutlet var textField1: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        textField1.delegate = zipCodeDelegate
     }
 
     override func didReceiveMemoryWarning() {
