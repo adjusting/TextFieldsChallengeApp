@@ -11,12 +11,15 @@ import UIKit
 class ViewController: UIViewController {
 
     let zipCodeDelegate = ZipCodeDelegate()
+    let cashDelegate = CashDelegate()
     
     @IBOutlet var textField1: UITextField!
+    @IBOutlet var textField2: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         textField1.delegate = zipCodeDelegate
+        textField2.delegate = cashDelegate
     }
 
     override func didReceiveMemoryWarning() {
