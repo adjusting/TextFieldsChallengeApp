@@ -14,6 +14,7 @@
 		04DB64061EA1F6FA007C9B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DB64041EA1F6FA007C9B75 /* LaunchScreen.storyboard */; };
 		04DB640E1EA20041007C9B75 /* ZipCodeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB640D1EA20041007C9B75 /* ZipCodeDelegate.swift */; };
 		04DB64111EA3514B007C9B75 /* CashDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB64101EA3514B007C9B75 /* CashDelegate.swift */; };
+		04DB64131EA35926007C9B75 /* SwitchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DB64121EA35926007C9B75 /* SwitchDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		04DB64071EA1F6FA007C9B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04DB640D1EA20041007C9B75 /* ZipCodeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipCodeDelegate.swift; sourceTree = "<group>"; };
 		04DB64101EA3514B007C9B75 /* CashDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashDelegate.swift; sourceTree = "<group>"; };
+		04DB64121EA35926007C9B75 /* SwitchDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				04DB64101EA3514B007C9B75 /* CashDelegate.swift */,
 				04DB640D1EA20041007C9B75 /* ZipCodeDelegate.swift */,
+				04DB64121EA35926007C9B75 /* SwitchDelegate.swift */,
 			);
 			name = UITextFieldDelegates;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				04DB63FE1EA1F6FA007C9B75 /* ViewController.swift in Sources */,
 				04DB640E1EA20041007C9B75 /* ZipCodeDelegate.swift in Sources */,
+				04DB64131EA35926007C9B75 /* SwitchDelegate.swift in Sources */,
 				04DB63FC1EA1F6FA007C9B75 /* AppDelegate.swift in Sources */,
 				04DB64111EA3514B007C9B75 /* CashDelegate.swift in Sources */,
 			);
